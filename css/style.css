@@ -1,13 +1,19 @@
 .navigationHeader {
     display: flex;
+    border: 3px solid brown;
     justify-content: space-between;
     align-items: center;
     height: min-content;
 }
 
-.navigation {
+.navigation > a {
     display: flex;
+    padding: 10px;
     gap: 10px;
+    border: 3px solid;
+    color: white;
+    background-color: gray;
+    flex-direction: row;
 }
 
 .navigation a {
@@ -43,4 +49,8 @@
     flex-grow: 0;
     background-color: brown;
     border-radius: 15px;
+}
+
+@media screen and (max-widht: 1000px) {
+    
 }
